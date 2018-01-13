@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jenkins.model.JenkinsLocationConfiguration>
-  <adminAddress>Indirizzo non ancora configurato &lt;nobody@nowhere&gt;</adminAddress>
+  <adminAddress>al@example42.com</adminAddress>
   <jenkinsUrl>http://jenkins.foss.psick.io/</jenkinsUrl>
 </jenkins.model.JenkinsLocationConfiguration>
