@@ -41,7 +41,10 @@
       <passwordHash>#jbcrypt:$2a$10$y2BDp0.kZ6UlhbHfXFEkNegG/AInqQv1w0zFqhFDaN0pfzBNusuVO</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <jenkins.security.LastGrantedAuthoritiesProperty>
-      <timestamp>0</timestamp>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1521546523978</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
