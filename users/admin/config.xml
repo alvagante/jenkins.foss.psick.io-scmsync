@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwLi+/oHZ3VYLcHbVa0VRSbInn2L4apl9dvUH6rJCze72Y41hz0a+9MqDKJikDgcCyLLCczu73COpaL523IZ2YfA==}</apiToken>
+      <apiToken>{AQAAABAAAAAwwMP2FtiCEOdJ5Tdijkaa3z0mPFgTFBsjX344AmLWDrazzxDPiYEo8ZhFiYHKnI2PQPZ+utX3zuZmuJfabdTFOQ==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -22,9 +22,6 @@
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$kRPFwcFsCsiUzaBO0Jf.PeyBehwQTeKPXcVNUM5ba.LHhjTKt6tyO</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.2">
       <autofavoriteEnabled>true</autofavoriteEnabled>
     </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
@@ -40,11 +37,8 @@
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
     <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.7"/>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1521534685341</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$rKcg3Ru6yviAC/gwG1oLNeZVFtWobmhUolxqYjfHoBmX74M9ZkuYW</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>
