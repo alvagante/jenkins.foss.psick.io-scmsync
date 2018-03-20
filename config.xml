@@ -3,14 +3,14 @@
   <disabledAdministrativeMonitors/>
   <version>2.107.1</version>
   <installState>
-    <isSetupComplete>true</isSetupComplete>
-    <name>RUNNING</name>
+    <isSetupComplete>false</isSetupComplete>
+    <name>NEW</name>
   </installState>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
-    <denyAnonymousReadAccess>false</denyAnonymousReadAccess>
+    <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
