@@ -37,14 +37,14 @@
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
     <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.7"/>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$y2BDp0.kZ6UlhbHfXFEkNegG/AInqQv1w0zFqhFDaN0pfzBNusuVO</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <jenkins.security.LastGrantedAuthoritiesProperty>
       <roles>
         <string>authenticated</string>
       </roles>
       <timestamp>1521546523978</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$WtSBl4EgmmY13dnliFuEk.CeQ1S.3EeMz2wc8XC5B7chHg2Qj9Hve</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>
