@@ -18,6 +18,10 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>example42/psick/production</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>psick/production</string>
           <boolean>true</boolean>
         </entry>
