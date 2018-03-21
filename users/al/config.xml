@@ -29,6 +29,10 @@
           <string>psick/al</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>example42/psick/jenkins</string>
+          <boolean>true</boolean>
+        </entry>
       </data>
     </hudson.plugins.favorite.user.FavoriteUserProperty>
     <hudson.model.MyViewsProperty>
