@@ -23,7 +23,20 @@
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
-  <clouds/>
+  <clouds>
+    <hudson.plugins.ec2.EC2Cloud plugin="ec2@1.39">
+      <name>ec2-test</name>
+      <useInstanceProfileForCredentials>false</useInstanceProfileForCredentials>
+      <credentialsId></credentialsId>
+      <privateKey>
+        <privateKey>{AQAAABAAAAAQNPC+D4JuKwqfgSYAEZTyBbC6fsOid5+hMN/szPFsP3k=}</privateKey>
+      </privateKey>
+      <instanceCap>2147483647</instanceCap>
+      <templates class="empty-list"/>
+      <region></region>
+    </hudson.plugins.ec2.EC2Cloud>
+  </clouds>
+  <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
   <views>
     <hudson.model.AllView>
