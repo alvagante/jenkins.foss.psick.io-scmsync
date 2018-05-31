@@ -3,7 +3,7 @@
   <fullName>Al</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAABwjhCYKYknjwo3d57rukN/KqH7xF826CnDbxNX3Yk7I2opNr55idTBk+LulvokAmD7FYxP3NA/1VMowZ52LjmqReiBvHJ3CiuWgzVQffP+wSreO6Jyq85jvMv6YtunRHCNBZuAdOopgsG/k4sAf8PQbOYiTkwE6ieinfBiArbDZBA=}</apiToken>
+      <apiToken>{AQAAABAAAADAJPXLHr4i4gM62KmmvszKPHb7HOYPmiXAOy3OldPbFSC1tq7f/flECn/5wCFeXvGAhFEKIZv+MqcDZJN3y0lpcSmfSvZcyUPPMUpBGkI2q1e8+6U1/mLbUBOIgGGWaVGhIbSGj/9Ffvbs2/loVjy+8112ulGCi3wSrpYeV3nWgSnTQFjzBI9BfavJpq/7cjRpPRtafRIpyDMPjoGjqOvpne40aKTz35WRZ84UT4WbSiRZLDE5hHe3HX7yEv5biqolp5owOEYl/kcktS7YwNpwGw==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.2">
       <autofavoriteEnabled>true</autofavoriteEnabled>
@@ -11,7 +11,7 @@
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
-    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.1">
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.2">
       <data class="concurrent-hash-map">
         <entry>
           <string>example42/psick/al</string>
@@ -60,15 +60,14 @@
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
-    <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
-    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.7"/>
+    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.10"/>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
       <passwordHash>#jbcrypt:$2a$10$KJ5QTn66Dpb97DmVOo5er.TS4bNUOwEWdwfa6E8Zzb8cYlgMHbHzO</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
       <emailAddress>al@example42.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
