@@ -26,6 +26,10 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>example42/psick/PR-258</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>example42/psick/my_feauture</string>
           <boolean>true</boolean>
         </entry>
