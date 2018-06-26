@@ -1,16 +1,13 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors/>
-  <version>2.107.3</version>
-  <installState>
-    <isSetupComplete>true</isSetupComplete>
-    <name>RUNNING</name>
-  </installState>
+  <version>2.121.1</version>
+  <installStateName>NEW</installStateName>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
-    <denyAnonymousReadAccess>false</denyAnonymousReadAccess>
+    <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
@@ -23,20 +20,7 @@
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
-  <clouds>
-    <hudson.plugins.ec2.EC2Cloud plugin="ec2@1.39">
-      <name>ec2-test</name>
-      <useInstanceProfileForCredentials>false</useInstanceProfileForCredentials>
-      <credentialsId></credentialsId>
-      <privateKey>
-        <privateKey>{AQAAABAAAAAQNPC+D4JuKwqfgSYAEZTyBbC6fsOid5+hMN/szPFsP3k=}</privateKey>
-      </privateKey>
-      <instanceCap>2147483647</instanceCap>
-      <templates class="empty-list"/>
-      <region></region>
-    </hudson.plugins.ec2.EC2Cloud>
-  </clouds>
-  <quietPeriod>5</quietPeriod>
+  <clouds/>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
   <views>
     <hudson.model.AllView>
@@ -50,6 +34,7 @@
   <primaryView>all</primaryView>
   <slaveAgentPort>-1</slaveAgentPort>
   <disabledAgentProtocols>
+    <string>JNLP-connect</string>
     <string>JNLP2-connect</string>
   </disabledAgentProtocols>
   <label></label>
