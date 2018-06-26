@@ -1,51 +1,18 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <user>
-  <fullName>Al</fullName>
+  <fullName>al</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAADAJPXLHr4i4gM62KmmvszKPHb7HOYPmiXAOy3OldPbFSC1tq7f/flECn/5wCFeXvGAhFEKIZv+MqcDZJN3y0lpcSmfSvZcyUPPMUpBGkI2q1e8+6U1/mLbUBOIgGGWaVGhIbSGj/9Ffvbs2/loVjy+8112ulGCi3wSrpYeV3nWgSnTQFjzBI9BfavJpq/7cjRpPRtafRIpyDMPjoGjqOvpne40aKTz35WRZ84UT4WbSiRZLDE5hHe3HX7yEv5biqolp5owOEYl/kcktS7YwNpwGw==}</apiToken>
+      <apiToken>{AQAAABAAAAAwFZGtGU4QvowEsQkEgNw9y7eREFedP7vT+VIHj/D/S1pbwO3OU9pjBqxFYu+JGoJRjg+gCOB52Sgk7rMI5noi8Q==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.2">
       <autofavoriteEnabled>true</autofavoriteEnabled>
     </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
-    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.17">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.2">
-      <data class="concurrent-hash-map">
-        <entry>
-          <string>example42/psick/al</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>example42/psick/production</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>psick/production</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>example42/psick/PR-258</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>example42/psick/my_feauture</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>psick/integration</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>psick/al</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>example42/psick/jenkins</string>
-          <boolean>true</boolean>
-        </entry>
-      </data>
+      <data class="concurrent-hash-map"/>
     </hudson.plugins.favorite.user.FavoriteUserProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -69,7 +36,7 @@
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$KJ5QTn66Dpb97DmVOo5er.TS4bNUOwEWdwfa6E8Zzb8cYlgMHbHzO</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$X87QsHY4.GTvfpNZKJS.6OO8FV/U/peVtD5/lVQrk/Y8tRNpamu8.</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
       <emailAddress>al@example42.com</emailAddress>
