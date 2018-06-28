@@ -14,7 +14,63 @@
     </com.sonyericsson.rebuild.RebuildSettings>
   </properties>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.54">
-    <script></script>
+    <script>pipeline {
+  agent any
+  stages {
+    stage(&apos;Setup&apos;) {
+      steps {
+        sh &quot;bin/jenkins_before.sh ${env.BRANCH_NAME}&quot;
+        sh &apos;/opt/puppetlabs/puppet/bin/bundle --path=vendor&apos;
+      }
+    }
+    stage(&apos;Syntax&apos;) {
+      steps {
+        sh &apos;bin/puppet_check_syntax_fast.sh all_but_chars&apos;
+        sh &apos;bin/puppet_lint.sh&apos;
+        sh &apos;bin/puppet_check_syntax_fast.sh chars&apos;
+      }
+    }
+    stage(&apos;Unit&apos;) {
+      steps {
+        sh &apos;bin/puppet_check_rake.sh site&apos;
+        sh &apos;bin/puppet_check_rake.sh controlrepo&apos;
+      }
+    }
+    stage(&apos;Diff&apos;) {
+      steps {
+        sh &apos;bin/puppet_ci.sh catalog_preview || true&apos;
+      }
+    }
+    stage(&apos;Integration&apos;) {
+      steps {
+        sh &apos;bin/puppet_check_beaker.sh || true&apos;
+      }
+    }
+
+    stage(&apos;Integration Rollout&apos;) {
+      when {
+        branch &apos;integration&apos;
+      }
+      steps {
+        sh &apos;bin/puppet_ci.sh r10k_deploy --env integration --ssh jenkins@puppet --sudo&apos;
+        sh &apos;bin/puppet_ci.sh task_run psick::puppet_agent --env integration&apos;
+        sh &apos;bin/puppet_ci.sh db_query --env integration&apos;
+      }
+    }
+
+    stage(&apos;Production Rollout&apos;) {
+      when {
+        branch &apos;production&apos;
+      }
+      steps {
+        sh &apos;bin/puppet_ci.sh r10k_deploy --env production --ssh jenkins@puppet --sudo&apos;
+        sh &apos;bin/puppet_ci.sh task_run psick::puppet_agent --env production&apos;
+        sh &apos;bin/puppet_ci.sh db_query --env production&apos;
+      }
+    }
+  }
+}
+</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>
