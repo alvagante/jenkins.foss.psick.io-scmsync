@@ -2,12 +2,12 @@
 <hudson>
   <disabledAdministrativeMonitors/>
   <version>2.121.1</version>
-  <installStateName>RUNNING</installStateName>
+  <installStateName>NEW</installStateName>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
-    <denyAnonymousReadAccess>false</denyAnonymousReadAccess>
+    <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>true</disableSignup>
