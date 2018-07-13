@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAw5mEG7lEpfyh/UTggb6m6XZ+Q5X1bY88aJAlLSqLLq6A4nAxagk4tw4xbwpLHSmF0ritEhKN1RTRyp0qr2ACu0A==}</apiToken>
+      <apiToken>{AQAAABAAAAAwnrQ3JW+SeZF53HJBwtrrSxbukZCF3/fapHKvXqSLz5qej2A51tjy5EWrzizSE/x6ZmUqrBDo36o5+Dx1W0V/Pw==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -26,32 +26,7 @@
       <autofavoriteEnabled>true</autofavoriteEnabled>
     </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.17">
-      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
-        <entry>
-          <com.cloudbees.plugins.credentials.domains.Domain>
-            <specifications/>
-          </com.cloudbees.plugins.credentials.domains.Domain>
-          <java.util.concurrent.CopyOnWriteArrayList/>
-        </entry>
-        <entry>
-          <com.cloudbees.plugins.credentials.domains.Domain>
-            <name>blueocean-github-domain</name>
-            <description>blueocean-github-domain to store credentials by BlueOcean</description>
-            <specifications>
-              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanDomainSpecification plugin="blueocean-pipeline-scm-api@1.6.1"/>
-            </specifications>
-          </com.cloudbees.plugins.credentials.domains.Domain>
-          <list>
-            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
-              <scope>USER</scope>
-              <id>github</id>
-              <description>GitHub Access Token</description>
-              <username>admin</username>
-              <password>{AQAAABAAAAAwf5JI/Yyb08iA4K5s0a8wCDOOL2T3sldIYZSc480pIN7iggU5pXlv3/64oP4fkMTdepPMTuw/DdMg2unzRR4Qjw==}</password>
-            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
-          </list>
-        </entry>
-      </domainCredentialsMap>
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21"/>
     <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.2">
@@ -60,15 +35,9 @@
     <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
-    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.10"/>
+    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.12"/>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$BGRdPTGzNRuc2YFQCWLTVepo9kMgtEurGJdrW/dPmhm2R.AShd03C</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$Ykwi4nsVyoF8bGt6tCQ7Tu6qwzOEt4Y9izwzqx0ZDjULTaDsSU46S</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1530050267035</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
