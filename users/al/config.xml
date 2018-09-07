@@ -14,6 +14,10 @@
     <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.2">
       <data class="concurrent-hash-map">
         <entry>
+          <string>psick/PR-266</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>psick/PR-267</string>
           <boolean>true</boolean>
         </entry>
