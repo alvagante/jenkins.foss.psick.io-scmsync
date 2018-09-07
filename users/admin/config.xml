@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwnrQ3JW+SeZF53HJBwtrrSxbukZCF3/fapHKvXqSLz5qej2A51tjy5EWrzizSE/x6ZmUqrBDo36o5+Dx1W0V/Pw==}</apiToken>
+      <apiToken>{AQAAABAAAAAw7wUfxQ3TXLs6PdoYLHoqj3T/N3hIHtF7aV4Jije6e+dHCyya+pP7bOkAfSFyjAvhRMiM94N99leYMXVymst7Xw==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.model.MyViewsProperty>
       <views>
@@ -25,7 +25,7 @@
     <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.2">
       <autofavoriteEnabled>true</autofavoriteEnabled>
     </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
-    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.17">
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.18">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21"/>
@@ -35,15 +35,9 @@
     <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
-    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.12"/>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1531470224393</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <org.jenkinsci.plugins.p4.email.P4UserProperty plugin="p4@1.8.15"/>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$lDbAFk/T2Y3qDqJaEWi60uebXv1VBU/2usDCRUQ/mUoH8d0unHVHu</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$z2w9agju6yB87YSgqK7ipOF8Q8btMWXjb5caPkujrm12XJDvQ5EXy</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>
