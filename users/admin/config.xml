@@ -39,5 +39,8 @@
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
       <passwordHash>#jbcrypt:$2a$10$z2w9agju6yB87YSgqK7ipOF8Q8btMWXjb5caPkujrm12XJDvQ5EXy</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <timestamp>0</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
